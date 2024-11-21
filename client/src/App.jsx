@@ -11,7 +11,7 @@ function App() {
 
   const hitApi = async () => {
     try {
-      const dataUser = await fetch("http://13.210.70.81/")
+      const dataUser = await fetch("https://3.25.245.236/")
       const result = await dataUser.json()
       console.log(result);
     } catch (error) {
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <h3>Febrian Aditya</h3>
+      <h3>Febrian Tanpa Pemanis Buatan</h3>
     </>
   )
 }
